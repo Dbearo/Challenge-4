@@ -4,21 +4,21 @@
 
 }
 body{
-        /* display:flex */
+    /* display:flex */
 }
 #startScreen{
-    display:none; 
+    /* display:none;  */
     width: 100%;
     margin-top:25vh; 
   text-align: center
 }
 
 #quiz{
-    display: none;
+    /* display: none; */
 }
 
 #endScreen{
-    display: block;
+    /* display: block; */
 }
 
 h1{
