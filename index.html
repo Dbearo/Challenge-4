@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+    <section id="startScreen">
+    <div>
+        <h1 id="name">Jude's Coding Quiz!</h1>
+    </div>
+    <div id="start">
+        <p>Start</p>
+    </div>
+    </section>
+    <section id="quiz">
+
+    <div>
+        <h2 id="question">Question</h2>
+    </div>
+    <div id="answers">
+        <p class="ansBlock" id="ans1">placeholder</p>
+        <p class="ansBlock" id="ans2">placeholder</p>
+        <p class="ansBlock" id="ans3">placeholder</p>
+        <p class="ansBlock" id="ans4">placeholder</p>
+    </div>
+    <div id="checker">
+        <p>That answer was:<span id="feedback"></span></p>
+    </div>
+    <div id="timer">
+        <p>You have <span id="time"></span> seconds left</p>
+    </div>
+    </section>
+    <section id="endScreen">
+        <section id="score">
+            <h2>You got <span id="individualScore"></span> out of 5 correct.</h2>
+            <section id="scoreInput">
+                <input type="text" id="initials" placeholder ="Enter Initials Here">
+                <button id="submit">Submit</button>
+                <button id="retry">Retry</button>
+            </section>
+        </section>
+        <section id="highScore">
+            <h2>High Scores:</h2>
+            <ul id="scoreList">
+        
+            </ul>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
