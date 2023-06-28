@@ -3,9 +3,7 @@
     padding: 0;
 
 }
-body{
-    /* display:flex */
-}
+
 #startScreen{
     /* display:none;  */
     width: 100%;
@@ -13,13 +11,6 @@ body{
   text-align: center
 }
 
-#quiz{
-    /* display: none; */
-}
-
-#endScreen{
-    /* display: block; */
-}
 
 h1{
     font-size: 50px;
@@ -52,7 +43,9 @@ h1{
     display: flex;
     margin-top: 50px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
 }
 
 .ansBlock{
@@ -104,7 +97,15 @@ background-color: gray;
     margin:5px;
     margin-top:3vh;
     padding:auto;
-    height: 20vh;
+    min-height: 200px;
+    height: 20%;
     border:5px solid black;
 
+}
+
+#scoreList{
+    margin-left:2vh
+}
+ul li{
+    font-size: larger;
 }
